@@ -1,0 +1,169 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Mulish", sans-serif;
+}
+
+body {
+  background: #f1f3f5;
+}
+
+.logo-container {
+  background-color: #1b1464;
+  padding: 1.2em;
+  padding-left: 40px;
+  display: flex;
+}
+
+nav {
+  background-color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 2em;
+  box-shadow: 0px 1px 2px #4d4c4c29;
+  border-radius: 4px;
+}
+
+.nav-links-container {
+  height: 8vh;
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.nav-links-container li {
+  text-align: center;
+  margin-right: 1.5em;
+  height: 100%;
+}
+.nav-links-container li a,
+.nav-button a {
+  display: flex;
+  height: 100%;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  color: #1b1464;
+}
+
+.nav-links-container li a:focus {
+  border-bottom: 3px solid #47d1ff;
+}
+.nav-links-container img {
+  margin-right: 6px;
+}
+
+.nav-button {
+  color: #1b1464;
+  font-weight: 600;
+  height: 35px;
+  width: 200px;
+  background: #47d1ff;
+  box-shadow: 0px 1px 2px #00000029;
+  border-radius: 4px;
+  outline: none;
+  border: none;
+  transition: all 0.5s ease-in;
+}
+
+.nav-button:hover {
+  background: rgb(71, 209, 150);
+}
+
+.main-container {
+  padding: 1.5em;
+}
+
+.info-boxes {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.box {
+  height: 150px;
+  width: 320px;
+  background-color: #ffffff;
+  margin-right: 17px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: relative;
+  border: 0.4000000059604645px solid rgba(112, 112, 112, 0.3);
+}
+
+.status-container {
+  text-align: center;
+}
+
+.status-container p {
+  margin-top: 10px;
+  font-size: 0.7rem;
+}
+
+.status-circle {
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  border-radius: 66px;
+  text-align: center;
+  line-height: 40px;
+  vertical-align: middle;
+}
+
+.status-header {
+  position: absolute;
+  top: 0;
+  margin: 8px;
+  margin-left: 15px;
+  font-weight: 400;
+}
+.status-box {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 1.5em;
+  align-items: center;
+  padding: 20px;
+}
+
+.status-circle.health {
+  font-size: 30px;
+  background-color: transparent;
+  color: #1b1464;
+  font-weight: bold;
+}
+
+.green {
+  background-color: #24c977;
+}
+
+.orange {
+  background-color: #e0b237;
+}
+
+.red {
+  background-color: #ff4343f7;
+}
+
+.green,
+.red,
+.orange {
+  color: #ffffff;
+}
+
+.white {
+  border: 2px solid #1b1464;
+}
+
+.application-list {
+  margin-top: 1.5em;
+  background-color: #ffffff;
+  width: 100%;
+  height: 20px;
+  box-shadow: 0px 1px 2px #00000029;
+}
